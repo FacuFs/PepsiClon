@@ -1,0 +1,54 @@
+@import url(//db.onlinewebfonts.com/c/9e00143409affcb46a1ae58634aa64be?family=Sofia+Pro);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0;
+}
+
+.navbar{
+
+    position: relative;
+    height: 85px;
+    background-color: #0065C3;
+    display: flex;
+    font-family: "Sofia Pro",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size:15px;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+
+.navbarLeft{
+    display: flex;
+    padding-inline: 20px;    
+    align-items: center;
+
+}
+
+.navbarLeft {
+    p{
+        padding-inline: 20px;
+    }
+    
+}
+
+.navbarRight{
+    position: relative;
+    justify-self:end;
+
+}
+
+.logoPepsi{
+    position: relative;
+    padding: 20px 40px 20px 20px;    
+    height: 70%;
+    
+}
