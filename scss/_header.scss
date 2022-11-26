@@ -1,0 +1,94 @@
+.navbar{
+
+    position: relative;
+    height: 85px;
+    background-color: $Blue;
+    display: flex;
+    font-family: "Sofia Pro",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size:15px;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+
+.navbarLeft{
+    display: flex;
+    padding-inline: 20px;    
+    align-items: center;
+    width: 60%;
+    
+
+}
+
+.navbarLeft {
+    p{
+        padding-inline: 20px;
+
+    }
+    p:hover{
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.644);
+    }
+    
+}
+
+.navbarRight{
+    position: relative;
+    display: flex;
+    justify-self:end;
+    height: 100%;
+    width: 40%;
+    justify-content: end;
+    align-items: center;
+
+    button{
+        height: 30%;
+        margin-right: 30px;
+        background-color: transparent;
+        border-radius: 35%;
+        padding: 15px;
+        border-radius: 96px 96px 96px 96px;
+        -moz-border-radius: 96px 96px 96px 96px;
+        -webkit-border-radius: 96px 96px 96px 96px;
+        border: 2px solid white;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        line-height: 1px;
+        font-weight: bolder;
+
+
+    }
+    button:hover{
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.644);
+        border-color: rgba(255, 255, 255, 0.644);
+    }
+
+}
+
+.logoPepsi{
+    position: relative;
+    margin: 20px 40px 20px 20px;    
+    height: 70%;
+
+
+    
+}  
+.logoPepsi:hover{
+    cursor: pointer;
+    transition: 0.30s;
+    -webkit-transition: 0.20s;
+    -moz-transition: 0.20s;
+    -ms-transition: 0.20s;
+    -o-transition: 0.20s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+    }
